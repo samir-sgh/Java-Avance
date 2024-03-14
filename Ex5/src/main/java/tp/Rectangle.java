@@ -1,3 +1,5 @@
+package tp;
+
 public class Rectangle extends Figure {
 
     double longeur;

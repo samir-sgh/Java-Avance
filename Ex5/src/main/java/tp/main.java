@@ -1,3 +1,5 @@
+package tp;
+
 public class main {
     public static void main(String[] args) {
         Figure c1= new Cercle("Cercle1",15);

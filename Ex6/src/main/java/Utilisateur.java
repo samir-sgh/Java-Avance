@@ -9,7 +9,7 @@ public class Utilisateur {
     }
 
     void emprunterObjet(Empruntable objet){
-    objet.emprunter();
+        objet.emprunter();
     }
 
 }

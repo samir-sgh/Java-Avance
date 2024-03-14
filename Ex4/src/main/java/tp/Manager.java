@@ -1,3 +1,5 @@
+package tp;
+
 public class Manager extends Employe{
     private String servise;
 

@@ -1,4 +1,4 @@
-public interface Empruntable {
+interface Empruntable {
     void emprunter();
     void retourner();
 }

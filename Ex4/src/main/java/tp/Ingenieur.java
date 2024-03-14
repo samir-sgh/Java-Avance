@@ -1,3 +1,5 @@
+package tp;
+
 public class Ingenieur extends Employe {
     private String specialiste;
 

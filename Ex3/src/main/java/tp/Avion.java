@@ -1,3 +1,5 @@
+package tp;
+
 public class Avion extends Vehicule{
     private String compagnie;
     private int vitesseMax;
@@ -5,7 +7,8 @@ public class Avion extends Vehicule{
     public Avion() {
     }
 
-    public Avion(String compagnie, int vitesseMax) {
+    public Avion(String nom, double prix, String compagnie, int vitesseMax) {
+        super(nom, prix);
         this.compagnie = compagnie;
         this.vitesseMax = vitesseMax;
     }

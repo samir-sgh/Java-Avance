@@ -1,3 +1,5 @@
+package tp;
+
 public class Adherent extends Personne {
     private int numAdherent;
 

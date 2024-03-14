@@ -1,3 +1,4 @@
+package tp;
 public class Auteur extends Personne{
     private int numAuteur;
 

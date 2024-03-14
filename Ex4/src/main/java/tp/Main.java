@@ -1,3 +1,5 @@
+package tp;
+
 public class Main {
     public static void main(String[] args) {
         Ingenieur in=new Ingenieur("sam","sgh","sam@gmail.com",06532542,25000,"info");

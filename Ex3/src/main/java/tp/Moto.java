@@ -1,3 +1,5 @@
+package tp;
+
 public class Moto extends Vehicule{
     private String marque;
     private int puissance;
@@ -5,10 +7,12 @@ public class Moto extends Vehicule{
     public Moto() {
     }
 
-    public Moto(String marque, int puissance) {
+    public Moto(String nom, double prix, String marque, int puissance) {
+        super(nom, prix);
         this.marque = marque;
         this.puissance = puissance;
     }
+
 
     public String getMarque() {
         return marque;

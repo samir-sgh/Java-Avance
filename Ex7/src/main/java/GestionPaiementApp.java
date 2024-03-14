@@ -1,12 +1,10 @@
 public class GestionPaiementApp {
     public static void main(String[] args) {
-    Commande carte1 = new Commande(100.0, new CarteCredit(200, 1234, "1234 5678 9012 3456"));
-
-    Commande paypal1 = new Commande(50.0, new Paypal(50.0, 5678, "Sam@gmail.com"));
-    carte1.processPayment();
-    paypal1.processPayment();
-    Paypal p1= new Paypal(150,223344,"Sam@gmail.com");
-    p1.effectuerPaiement(200.25);
+        Paypal p1=new Paypal(10000,3978,"sam@gmail.com");
+        Commande c1=new Commande(1200,new CarteCredit(2500,1234,"2365 6745 4387 1276"));
+        Commande c2=new Commande(300,p1);
+        c1.processPayment();
+        c2.processPayment();
 
     }
 }

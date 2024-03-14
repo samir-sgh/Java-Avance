@@ -1,4 +1,5 @@
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package tp;
+
 
 public class Vehicule {
     private String nom;

@@ -1,3 +1,5 @@
+package tp;
+
 public abstract class Employe {
      private String nom;
     private String prenom;

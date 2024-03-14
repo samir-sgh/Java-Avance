@@ -1,3 +1,5 @@
+package tp;
+
 public abstract class Figure {
     protected String nom;
 

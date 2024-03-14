@@ -1,3 +1,5 @@
+package tp;
+
 public class Compte {
     private String numero;
     private static int nbCompte;
