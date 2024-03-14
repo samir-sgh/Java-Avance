@@ -26,9 +26,9 @@ public class DVD implements Empruntable{
     public void retourner() {
         if (emprunte) {
             emprunte = false;
-            System.out.println("Le livre : "+titre +" qui realisé par : "+ realisateur + " a été retourné.");
+            System.out.println("DVD : "+titre +" qui realisé par : "+ realisateur + " a été retourné.");
         } else {
-            System.out.println("Le livre : "+titre +" qui realisé par : "+ realisateur + " est déjà disponible.");
+            System.out.println("DVD : "+titre +" qui realisé par : "+ realisateur + " est déjà disponible.");
         }
     }
     @Override
